@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.RunnerClass.Adactin_Runner_Class
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 184.988 s <<< FAILURE! - in com.RunnerClass.Adactin_Runner_Class
+Hotel Booking in Adactin Application.Login Page #1  Time elapsed: 23.728 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...adactinhotelapp.com/[SearchHotel.php]> but was:<...adactinhotelapp.com/[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Adactin.Setp.Def.Adactin_Setp_Def.user_click_the_login_button_and_its_navigate_to(Adactin_Setp_Def.java:40)
+	at ✽.user Click The Login Button And Its Navigate To "https://adactinhotelapp.com/SearchHotel.php"(file:///C:/Users/barat/eclipse-workspace-4/Cucumber/Feature/Adactin.feature:7)
+

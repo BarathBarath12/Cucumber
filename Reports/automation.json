@@ -1,0 +1,657 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15608000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8552000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Click The Login Button and It Navigate To Login Page",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_signin_button_and_it_navigate_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 920000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter The Email Address In Email Address Filed \"stylezzbarath992@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stylezzbarath992@gmail.com\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_email_address_in_email_address_filed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enter The Password In Password Filed \"Barath@998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Barath@998\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_password_in_password_filed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7204000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click The Signin Button And Its Navigate The Dresses",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_signin_button_and_its_navigate_the_dresses()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-19T12:14:35.496Z",
+        "line": 10,
+        "name": "Womens Dresses Purchase",
+        "description": "",
+        "id": "purchase-dresses-in-automation-practice;womens-dresses-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10684000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Click The Dresses Along With Blouses And Its Navigate To Blouses Product",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_dresses_along_with_blouses_and_its_navigate_to_blouses_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1235000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Select The Size And Color And Compositions And Stylez And Properties And Availability And Manufaturer And Condition",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_select_the_size_and_color_and_compositions_and_stylez_and_properties_and_availability_and_manufaturer_and_condition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLSpanElement] has no size and location\n  (Session info: chrome\u003d104.0.5112.101)\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027DESKTOP-VS0PTQG\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2adeadfa7a9d71a768d8de6e07a3d932, actions {actions\u003d[org.openqa.selenium.interactions.Sequence@21fdfefc]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Windows\\TEMP\\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:60113}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60113/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2adeadfa7a9d71a768d8de6e07a3d932\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:536)\r\n\tat com.BaseClass.UtilityFiles1.actions(UtilityFiles1.java:57)\r\n\tat com.StepDefinition.Automation_Setp_Def.user_click_the_quick_view_images_and_its_navigate_to_add_to_card(Automation_Setp_Def.java:64)\r\n\tat ✽.user Click The Quick View Images And Its Navigate To Add To Card(file:///C:/Users/barat/eclipse-workspace-4/Cucumber/Automatin%20Feature/Automation.feature:13)\r\n",
+              "duration": 480000000,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user Click The Quick View Images And Its Navigate To Add To Card",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_quick_view_images_and_its_navigate_to_add_to_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user Enter The Quantity And Color And Then Click The Add To Card Button And Its Navigate To Proceed To CheckOut Product Page \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 125
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_quantity_and_color_and_theen_click_the_add_to_card_button_and_its_navigate_to_proceed_to_check_out_product_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user Click The Proceed To Checkout Button and Its Navigate To Summary Page",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_proceed_to_checkout_button_and_its_navigate_to_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user Confirm The Summary Page Click Then Click Proceed To Checkout Button And Its Navigate To Address Details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_confirm_the_summary_page_click_then_click_proceed_to_checkout_button_and_its_navigate_to_address_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user Confirm The Address And Then Click The Proceed To Checkout Button And Its Navigate Shipping Details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_confirm_the_address_and_then_click_the_proceed_to_checkout_button_and_its_navigate_shipping_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user Click The Proceed To Checkout In Shipping Details And Its Navigate To Payment details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_proceed_to_checkout_in_shipping_details_and_its_navigate_to_payment_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user Click The Payment Option In Payment Details And Its Navigate To Payment Details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_payment_option_in_payment_details_and_its_navigate_to_payment_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user Click Confirm My Order And Then Click The Signout Button",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_confirm_my_order_and_then_click_the_signout_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Dresses"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7892000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title\u003d\u0027Log in to your customer account\u0027]\"}\n  (Session info: chrome\u003d104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027DESKTOP-VS0PTQG\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2adeadfa7a9d71a768d8de6e07a3d932, findElement {using\u003dxpath, value\u003d//a[@title\u003d\u0027Log in to your customer account\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Windows\\TEMP\\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:60113}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60113/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2adeadfa7a9d71a768d8de6e07a3d932\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat com.BaseClass.UtilityFiles1.click(UtilityFiles1.java:104)\r\n\tat com.StepDefinition.Automation_Setp_Def.user_click_the_signin_button_and_it_navigate_to_login_page(Automation_Setp_Def.java:25)\r\n\tat ✽.user Click The Login Button and It Navigate To Login Page(file:///C:/Users/barat/eclipse-workspace-4/Cucumber/Automatin%20Feature/Automation.feature:4)\r\n",
+              "duration": 31081000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user Click The Login Button and It Navigate To Login Page",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_signin_button_and_it_navigate_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user Enter The Email Address In Email Address Filed \"stylezzbarath992@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stylezzbarath992@gmail.com\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_email_address_in_email_address_filed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Enter The Password In Password Filed \"Barath@998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Barath@998\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_password_in_password_filed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user Click The Signin Button And Its Navigate The Dresses",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_signin_button_and_its_navigate_the_dresses()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-19T12:15:22.384Z",
+        "line": 23,
+        "name": "Casual Dresses  Purchase",
+        "description": "",
+        "id": "purchase-dresses-in-automation-practice;casual-dresses--purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user Click The Dresses Along With Casual Dresses And Its Navigate To Casual Dresses Product",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_dresses_along_with_casual_dresses_and_its_navigate_to_casual_dresses_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user Select The Size And Color And The Compositions And The Stylez And The Properties And The Availability And The Manufaturer And The Condition",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_select_the_size_and_color_and_the_compositions_and_the_stylez_and_the_properties_and_the_availability_and_the_manufaturer_and_the_condition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user Click The Quick View Images And Its Navigate To The Add To Card",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_quick_view_images_and_its_navigate_to_the_add_to_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user Enter The Quantity And The Color And Then Click The Add To Card Button And Its Navigate To Proceed To CheckOut Product Page \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 129
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_quantity_and_the_color_and_then_click_the_add_to_card_button_and_its_navigate_to_proceed_to_check_out_product_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user Click The Proceed To Checkout Button and Its Navigate To The Summary Page",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_proceed_to_checkout_button_and_its_navigate_to_the_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user Confirm The Summary Page And Then Click Proceed To Checkout Button And Its Navigate To Address Details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_confirm_the_summary_page_and_then_click_proceed_to_checkout_button_and_its_navigate_to_address_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user Confirm The Address Then Click The Proceed To Checkout Button And Its Navigate To Shipping Details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_confirm_the_address_then_click_the_proceed_to_checkout_button_and_its_navigate_to_shipping_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user Click The Proceed To Checkout In Shipping Details And Its Navigate To The Payment details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_proceed_to_checkout_in_shipping_details_and_its_navigate_to_the_payment_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user Click The Payment Options In Payment Details And Its Navigate To The Paymenet Details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_payment_options_in_payment_details_and_its_navigate_to_the_paymenet_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user Click Confirm My Order And Then Click Signout Button",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_confirm_my_order_and_then_click_signout_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CasualDresses"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2692000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title\u003d\u0027Log in to your customer account\u0027]\"}\n  (Session info: chrome\u003d104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027DESKTOP-VS0PTQG\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2adeadfa7a9d71a768d8de6e07a3d932, findElement {using\u003dxpath, value\u003d//a[@title\u003d\u0027Log in to your customer account\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Windows\\TEMP\\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:60113}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60113/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2adeadfa7a9d71a768d8de6e07a3d932\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat com.BaseClass.UtilityFiles1.click(UtilityFiles1.java:104)\r\n\tat com.StepDefinition.Automation_Setp_Def.user_click_the_signin_button_and_it_navigate_to_login_page(Automation_Setp_Def.java:25)\r\n\tat ✽.user Click The Login Button and It Navigate To Login Page(file:///C:/Users/barat/eclipse-workspace-4/Cucumber/Automatin%20Feature/Automation.feature:4)\r\n",
+              "duration": 32347000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user Click The Login Button and It Navigate To Login Page",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_signin_button_and_it_navigate_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user Enter The Email Address In Email Address Filed \"stylezzbarath992@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stylezzbarath992@gmail.com\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_email_address_in_email_address_filed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Enter The Password In Password Filed \"Barath@998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Barath@998\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_password_in_password_filed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user Click The Signin Button And Its Navigate The Dresses",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_signin_button_and_its_navigate_the_dresses()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-19T12:16:01.501Z",
+        "line": 36,
+        "name": "T-Shirts Purchase",
+        "description": "",
+        "id": "purchase-dresses-in-automation-practice;t-shirts-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "user Click The T-Shirts Along And Its Navigate To The T-Shirts Products",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_t_shirts_along_and_its_navigate_to_the_t_shirts_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "user Select The Size And The Color And The Compositions And The Stylez And The Properties And The Availability And The Manufaturer And The Condition",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_select_the_size_and_the_color_and_the_compositions_and_the_stylez_and_the_properties_and_the_availability_and_the_manufaturer_and_the_condition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "user Click The Quick View Images",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_quick_view_images()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "user Enter The Quantity And The Color And Theen Click The Add To Card Button \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 77
+                }
+              ],
+              "location": "com.StepDefinition.Automation_Setp_Def.user_enter_the_quantity_and_the_color_and_theen_click_the_add_to_card_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "user Click The Proceed To Checkout Button",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user Confirm The Summary Page And Then Click Proceed To Checkout Button",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_confirm_the_summary_page_and_then_click_proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user Confirm The Address Then Click The Proceed To Checkout Button",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_confirm_the_address_then_click_the_proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user Click The Proceed To Checkout In Shipping Details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_proceed_to_checkout_in_shipping_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user Click The Payment Options In Payment Details",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_payment_options_in_payment_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "user Click The Confirm My Order And Then Click The Signout Button",
+            "match": {
+              "location": "com.StepDefinition.Automation_Setp_Def.user_click_the_confirm_my_order_and_then_click_the_signout_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tshirts"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase Dresses In Automation Practice",
+    "description": "",
+    "id": "purchase-dresses-in-automation-practice",
+    "keyword": "Feature",
+    "uri": "file:Automatin%20Feature/Automation.feature",
+    "tags": []
+  }
+]
